@@ -1,0 +1,74 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Tall & Slim — Marketplace</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container">
+      <h1 class="logo">Tall & Slim</h1>
+      <nav>
+        <a href="#" id="onboardBtn">Brand Onboarding</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container">
+    <section class="hero">
+      <h2>Clothing that actually fits tall, slim bodies</h2>
+      <p class="tagline">Curated items from multiple brands — we only show longer lengths and slimmer cuts.</p>
+    </section>
+
+    <section class="controls">
+      <div class="filter">
+        <label>Search <input id="search" placeholder="Search items or brands"></label>
+      </div>
+      <div class="filter">
+        <label>Brand
+          <select id="brandFilter"><option value="">All</option></select>
+        </label>
+      </div>
+      <div class="filter">
+        <label>Category
+          <select id="categoryFilter"><option value="">All</option><option value="shirts">Shirts</option><option value="pants">Pants</option><option value="outerwear">Outerwear</option></select>
+        </label>
+      </div>
+      <div class="filter">
+        <label>Sort
+          <select id="sort"><option value="featured">Featured</option><option value="price-asc">Price ↑</option><option value="price-desc">Price ↓</option></select>
+        </label>
+      </div>
+    </section>
+
+    <section id="productGrid" class="grid" aria-live="polite">
+      <!-- Products will be injected here -->
+    </section>
+
+    <section class="about">
+      <h3>How this works</h3>
+      <ol>
+        <li>We curate tall & slim-friendly items from brands.</li>
+        <li>When a visitor buys through our link, we earn a commission (affiliate).</li>
+        <li>We never hold inventory — we direct users to brand storefronts.</li>
+      </ol>
+    </section>
+
+    <footer class="footer">
+      <p>&copy; Tall & Slim • Built as a demonstration</p>
+    </footer>
+  </main>
+
+  <!-- Product modal template -->
+  <div id="modal" class="modal" aria-hidden="true">
+    <div class="modal-content">
+      <button id="closeModal" class="close">×</button>
+      <div id="modalBody"></div>
+    </div>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>

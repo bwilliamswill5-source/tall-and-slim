@@ -1,0 +1,63 @@
+[
+  {
+    "id": "p1",
+    "title": "Longline Slim Shirt",
+    "brand": "Apex Threads",
+    "category": "shirts",
+    "description": "Crisp button-up with 4\" extra length in the torso and tapered sides for a slim fit.",
+    "image": "https://images.unsplash.com/photo-1533228100845-1e5a6fb1d5f7?q=80&w=1400&auto=format&fit=crop&ixlib=rb-4.0.3&s=eea7c3b28e5db2c6b9b1b2f3a4f5d6c2",
+    "price": 49.99,
+    "available_sizes": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "affiliate_link": "https://example.com/affiliate/apex-longline-slim?p=demo"
+  },
+  {
+    "id": "p2",
+    "title": "Tall Slim Chinos",
+    "brand": "EverTall",
+    "category": "pants",
+    "description": "Chinos with 36\" and 38\" inseam options and a slimmer leg cut.",
+    "image": "https://images.unsplash.com/photo-1541099649105-f69ad21f3246?q=80&w=1400&auto=format&fit=crop&ixlib=rb-4.0.3&s=1a2b3c4d5e6f7g8h9i0j",
+    "price": 69.0,
+    "available_sizes": [
+      "30x36",
+      "32x36",
+      "34x38"
+    ],
+    "affiliate_link": "https://example.com/affiliate/evertall-chinos?p=demo"
+  },
+  {
+    "id": "p3",
+    "title": "Slim Tall Hoodie",
+    "brand": "UrbanLength",
+    "category": "outerwear",
+    "description": "A streamlined hoodie with longer sleeves and body for tall frames.",
+    "image": "https://images.unsplash.com/photo-1520975681917-4f6f9f3f0b6a?q=80&w=1400&auto=format&fit=crop&ixlib=rb-4.0.3&s=abcdef1234567890",
+    "price": 89.5,
+    "available_sizes": [
+      "S",
+      "M",
+      "L"
+    ],
+    "affiliate_link": "https://example.com/affiliate/urbanlength-hoodie?p=demo"
+  },
+  {
+    "id": "p4",
+    "title": "Extra Long Denim",
+    "brand": "DenimTall",
+    "category": "pants",
+    "description": "Classic denim with 40\" inseam options and slim taper.",
+    "image": "https://images.unsplash.com/photo-1512436991641-6745cdb1723f?q=80&w=1400&auto=format&fit=crop&ixlib=rb-4.0.3&s=11121314151617181920",
+    "price": 99.0,
+    "available_sizes": [
+      "32x36",
+      "32x40",
+      "34x40"
+    ],
+    "affiliate_link": "https://example.com/affiliate/denimtall-eld?p=demo"
+  }
+]
