@@ -127,3 +127,10 @@ footer {
   font-weight: 700;
   letter-spacing: 0.5px;
 }
+.tagline {
+  font-size: 1.1rem;
+  font-weight: 500;
+  color: var(--accent-color);
+  margin-top: 0.5rem;
+  letter-spacing: 0.3px;
+}
