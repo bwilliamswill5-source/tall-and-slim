@@ -53,13 +53,13 @@ body{
   animation:slideBg 12s infinite ease-in-out;
   z-index:-2;
 }
-/* Image 1 = Black male model, Image 2 = white female model */
+/* Image 1 = tall Black male model, Image 2 = white female model, both solo streetwear */
 @keyframes slideBg{
   0%, 45%{
-    background-image:url("https://images.unsplash.com/photo-1603349206293-6a9332f79933?q=80&w=2000&auto=format&fit=crop");
+    background-image:url("https://images.unsplash.com/photo-1503342217505-b0a15ec3261c?q=80&w=2000&auto=format&fit=crop"); /* tall Black male in streetwear */
   }
   55%, 100%{
-    background-image:url("https://images.unsplash.com/photo-1519741497674-611481863552?q=80&w=2000&auto=format&fit=crop");
+    background-image:url("https://images.unsplash.com/photo-1520975918319-25e8e2ee632e?q=80&w=2000&auto=format&fit=crop"); /* white female streetwear solo */
   }
 }
 
