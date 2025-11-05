@@ -2,19 +2,70 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Tall & Slim | Coming Soon</title>
-  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap" rel="stylesheet">
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Tall & Slim — Streetwear that finally fits</title>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
-  <div class="overlay">
-    <div class="container">
-      <img src="logo.png" alt="Tall & Slim Logo" class="logo">
-      <h1>Tall & Slim</h1>
-      <p class="tagline">Fashion that finally fits the tall and slim.</p>
-      <button class="notify-btn">Coming Soon</button>
+  <!-- Top Nav -->
+  <header class="nav">
+    <div class="nav__brand">
+      <img src="logo.png" alt="Tall & Slim logo" class="logo" />
+      <span class="brand-text">Tall & Slim</span>
     </div>
-  </div>
+    <nav class="nav__links">
+      <a href="#about">About</a>
+      <a href="#waitlist" class="btn btn--outline">Join Waitlist</a>
+    </nav>
+  </header>
+
+  <!-- HERO (slideshow of 2 backgrounds) -->
+  <section class="hero">
+    <div class="hero__overlay"></div>
+    <div class="hero__content">
+      <h1>Streetwear that finally fits.</h1>
+      <p class="sub">Built for height. Designed for style.</p>
+      <div class="cta">
+        <a class="btn btn--solid" href="#waitlist">Join the Waitlist</a>
+        <a class="btn btn--ghost" href="#about">Learn More</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ABOUT -->
+  <section id="about" class="about">
+    <h2>Made for Tall & Slim</h2>
+    <p>
+      At 6’8”, finding clothes that actually fit shouldn’t be a struggle. Tall & Slim curates
+      modern, tall-cut streetwear from multiple brands—longer inseams, taller rises, extended sleeves,
+      and clean silhouettes. Confidence, without compromise.
+    </p>
+  </section>
+
+  <!-- WAITLIST -->
+  <section id="waitlist" class="waitlist">
+    <h2>Be first to know</h2>
+    <p>Get early access when we drop the first collection and partner brands.</p>
+
+    <!-- Works on GitHub Pages today (opens the mail app with a prefilled message) -->
+    <form class="waitlist__form" action="mailto:brandon@tall-slim.com" method="post" enctype="text/plain">
+      <input type="email" name="email" placeholder="Enter your email" required />
+      <button type="submit" class="btn btn--solid">Join Waitlist</button>
+    </form>
+
+    <!-- Optional: when you’re ready for a hosted form (keeps submissions in a dashboard),
+         replace the form above with a service endpoint (e.g., Formspree/Staticforms)
+         and add a success message. -->
+  </section>
+
+  <footer class="footer">
+    <p>© <span id="y"></span> Tall & Slim • Fashion that finally fits</p>
+  </footer>
+
+  <script>
+    // Set current year in footer
+    document.getElementById('y').textContent = new Date().getFullYear();
+  </script>
 </body>
 </html>
