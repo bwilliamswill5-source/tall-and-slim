@@ -94,20 +94,27 @@ body {
 
 /* HERO IMAGES – HYPE STREET MODELS */
 
+/* HERO IMAGES – HYPE STREET MODELS */
+
 .hero__image-grid {
   display: grid;
   grid-template-columns: 1fr;
   gap: 1.1rem;
+  margin-top: 1.5rem;
 }
 
 .hero__img {
   border-radius: 20px;
-  min-height: 260px;                 /* taller so you see more of the model */
+  height: 260px;                 /* fixed height so it always shows */
   background-size: cover;
-  background-position: top center;   /* show faces, not just torso/wall */
+  background-position: top center;
   position: relative;
   overflow: hidden;
   box-shadow: 0 18px 40px rgba(0, 0, 0, 0.85);
+
+  /* make it VERY obvious even if image fails */
+  background-color: #111827;
+  border: 2px solid #00ff7f;
 }
 
 /* multi-racial tall male */
