@@ -2,71 +2,163 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <meta name="fo-verify" content="0cb67ad4-28d7-4a08-b002-609ef9fea85c" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Tall & Slim — Streetwear that finally fits</title>
-  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap" rel="stylesheet">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Tall & Slim | Streetwear that finally fits</title>
+
+  <!-- Google font -->
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+  <!-- Main stylesheet -->
   <link rel="stylesheet" href="styles.css" />
-  <meta name='impact-site-verification' value='2105c31e-8a12-453f-a8b9-4ea166722cb9'></head>
+
+  <!-- (Optional) keep any verification meta tags here -->
+</head>
 <body>
-  <!-- Top Nav -->
+  <!-- NAVBAR -->
   <header class="nav">
-    <div class="nav__brand">
-      <img src="logo.png" alt="Tall & Slim logo" class="logo" />
-      <span class="brand-text">Tall & Slim</span>
+    <div class="nav__left">
+      <span class="nav__logo-mark">T</span>
+      <span class="nav__brand">Tall & Slim</span>
     </div>
     <nav class="nav__links">
-      <a href="#about">About</a>
-      <a href="#waitlist" class="btn btn--outline">Join Waitlist</a>
+      <a href="#shop">Shop</a>
+      <a href="#why">Why Tall & Slim</a>
+      <a href="#how">How It Works</a>
+      <a href="#waitlist" class="nav__cta">Join Waitlist</a>
     </nav>
   </header>
 
-  <!-- HERO (slideshow of 2 backgrounds) -->
-  <section class="hero">
-    <div class="hero__overlay"></div>
+  <!-- HERO -->
+  <section class="hero" id="top">
     <div class="hero__content">
-      <h1>Streetwear that finally fits.</h1>
-      <p class="sub">Built for height. Designed for style.</p>
-      <div class="cta">
-        <a class="btn btn--solid" href="#waitlist">Join the Waitlist</a>
-        <a class="btn btn--ghost" href="#about">Learn More</a>
+      <p class="hero__eyebrow">Streetwear • Tall Cuts • Slim Fits</p>
+      <h1>Streetwear that finally fits tall bodies.</h1>
+      <p class="hero__sub">
+        Curated brands, longer inseams, taller rises & clean lines — built for height, never boxy.
+      </p>
+      <div class="hero__buttons">
+        <a href="#shop" class="btn btn--primary">Explore Future Drops</a>
+        <a href="#waitlist" class="btn btn--ghost">Join Waitlist</a>
+      </div>
+      <p class="hero__note">Launching soon • Sizes designed for 6'3"+ men & women</p>
+    </div>
+
+    <div class="hero__image-grid">
+      <div class="hero__img hero__img--one"></div>
+      <div class="hero__img hero__img--two"></div>
+    </div>
+  </section>
+
+  <!-- SHOP PREVIEW -->
+  <section class="section" id="shop">
+    <div class="section__header">
+      <h2>Built for Tall & Slim</h2>
+      <p>Coming soon: curated tall streetwear from multiple brands in one place.</p>
+    </div>
+
+    <div class="cards">
+      <article class="card">
+        <p class="card__tag">For Him</p>
+        <h3>Extended Inseam Denim</h3>
+        <p class="card__text">
+          36"+ inseams, slim through the leg, no awkward ankle crops. Tall-ready jeans from partner brands.
+        </p>
+        <span class="card__pill">Up to 40" inseam</span>
+      </article>
+
+      <article class="card">
+        <p class="card__tag">For Her</p>
+        <h3>Longline Tops & Jackets</h3>
+        <p class="card__text">
+          Extra length in sleeves & body so tall women don’t size up just for fit — true-to-size streetwear.
+        </p>
+        <span class="card__pill">Tall women’s edits</span>
+      </article>
+
+      <article class="card">
+        <p class="card__tag">Essentials</p>
+        <h3>Tees That Actually Stack</h3>
+        <p class="card__text">
+          Everyday tees, hoodies & joggers that fall right — no belly peek, no short cuffs, no shrink shock.
+        </p>
+        <span class="card__pill">Street essentials</span>
+      </article>
+    </div>
+  </section>
+
+  <!-- WHY TALL & SLIM -->
+  <section class="section section--split" id="why">
+    <div class="section__content">
+      <h2>Why Tall & Slim exists</h2>
+      <p>
+        If you’re tall and slim, you know the struggle: jeans that stop at your shins, sleeves that ride up,
+        and “XL” just meaning wider, not longer. At 6'8", I’ve spent years trying to force regular clothes
+        to work on a tall frame.
+      </p>
+      <p>
+        Tall & Slim was built to fix that. We’re curating brands and pieces that actually respect height —
+        longer inseams, taller rises, extended sleeves and clean silhouettes that don’t swallow your frame.
+      </p>
+    </div>
+    <div class="section__side">
+      <ul class="list">
+        <li>✅ Focused on tall & slim bodies only</li>
+        <li>✅ Partnering with multiple streetwear brands</li>
+        <li>✅ Simple filters: inseam, height range, fit</li>
+        <li>✅ Inspo looks built on tall models</li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- HOW IT WORKS -->
+  <section class="section" id="how">
+    <div class="section__header">
+      <h2>How Tall & Slim will work</h2>
+      <p>One hub for tall streetwear, powered by affiliate partnerships.</p>
+    </div>
+
+    <div class="steps">
+      <div class="step">
+        <span class="step__badge">1</span>
+        <h3>Discover tall-friendly brands</h3>
+        <p>We hand-pick brands and pieces that offer real tall sizing and slim cuts.</p>
+      </div>
+      <div class="step">
+        <span class="step__badge">2</span>
+        <h3>Shop by height & inseam</h3>
+        <p>Filter by height range, inseam, and fit so you only see what will actually work for you.</p>
+      </div>
+      <div class="step">
+        <span class="step__badge">3</span>
+        <h3>Buy through trusted stores</h3>
+        <p>You checkout on the brand’s website. Tall & Slim earns a small commission if you buy.</p>
       </div>
     </div>
   </section>
 
-  <!-- ABOUT -->
-  <section id="about" class="about">
-    <h2>Made for Tall & Slim</h2>
-    <p>
-      At 6’8”, finding clothes that actually fit shouldn’t be a struggle. Tall & Slim curates
-      modern, tall-cut streetwear from multiple brands—longer inseams, taller rises, extended sleeves,
-      and clean silhouettes. Confidence, without compromise.
-    </p>
-  </section>
-
   <!-- WAITLIST -->
-  <section id="waitlist" class="waitlist">
-    <h2>Be first to know</h2>
-    <p>Get early access when we drop the first collection and partner brands.</p>
+  <section class="section section--waitlist" id="waitlist">
+    <div class="section__header">
+      <h2>Be first in line</h2>
+      <p>Join the waitlist and get early access when we launch new drops & partner brands.</p>
+    </div>
 
-    <!-- Works on GitHub Pages today (opens the mail app with a prefilled message) -->
-    <form class="waitlist__form" action="mailto:brandon@tall-slim.com" method="post" enctype="text/plain">
-      <input type="email" name="email" placeholder="Enter your email" required />
-      <button type="submit" class="btn btn--solid">Join Waitlist</button>
+    <!-- Simple mailto form (works on GitHub Pages) -->
+    <form class="waitlist-form" action="mailto:brandon@tall-slim.com" method="post" enctype="text/plain">
+      <input type="email" name="email" placeholder="Enter your email address" required />
+      <button type="submit" class="btn btn--primary">Join Waitlist</button>
     </form>
 
-    <!-- Optional: when you’re ready for a hosted form (keeps submissions in a dashboard),
-         replace the form above with a service endpoint (e.g., Formspree/Staticforms)
-         and add a success message. -->
+    <p class="waitlist-note">No spam. Just tall-ready fashion updates.</p>
   </section>
 
+  <!-- FOOTER -->
   <footer class="footer">
-    <p>© <span id="y"></span> Tall & Slim • Fashion that finally fits</p>
+    <p>© <span id="year"></span> Tall & Slim • Fashion that finally fits the tall and slim.</p>
   </footer>
 
   <script>
-    // Set current year in footer
-    document.getElementById('y').textContent = new Date().getFullYear();
+    document.getElementById('year').textContent = new Date().getFullYear();
   </script>
 </body>
 </html>
